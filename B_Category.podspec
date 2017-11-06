@@ -133,6 +133,6 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
 
-  s.dependency "CTMediator"
+  s.dependency "YYMediator"
 
 end
