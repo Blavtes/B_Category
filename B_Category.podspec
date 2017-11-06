@@ -55,6 +55,10 @@ Pod::Spec.new do |s|
 
   s.author             = { "Blavtes" => "blavtes@163.com" }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 800371389cfd8bc4e9773e278551153d90114882
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
@@ -88,7 +92,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
+<<<<<<< HEAD
   s.source_files  = "B_Category/B_Category/*.{h,m}"
+=======
+  s.source_files  = "B_Category/B_Category/**/*.{h,m}"
+>>>>>>> 800371389cfd8bc4e9773e278551153d90114882
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -132,6 +140,10 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
+<<<<<<< HEAD
+=======
+  # s.dependency "BLMediator"
+>>>>>>> 800371389cfd8bc4e9773e278551153d90114882
   s.dependency "CTMediator"
 
 end
