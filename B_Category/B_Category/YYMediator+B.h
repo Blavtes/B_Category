@@ -6,10 +6,10 @@
 //  Copyright © 2017年 Blavtes. All rights reserved.
 //
 
-#import <CTMediator/CTMediator.h>
+#import <YYMediator/YYMediator.h>
 #import <UIKit/UIKit.h>
 //typedef void (^test) (NSString *log);
-@interface CTMediator (B)
+@interface YYMediator (B)
 
 - (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText block:(id)block;
 

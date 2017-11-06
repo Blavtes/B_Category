@@ -6,9 +6,9 @@
 //  Copyright © 2017年 Blavtes. All rights reserved.
 //
 
-#import "CTMediator+B.h"
+#import "YYMediator+B.h"
 
-@implementation CTMediator (B)
+@implementation YYMediator (B)
 - (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText block:(id)block
 {
     /*
