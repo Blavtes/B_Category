@@ -9,7 +9,7 @@
 #import "CTMediator+B.h"
 
 @implementation CTMediator (B)
-- (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText
+- (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText block:(id)block
 {
     /*
      BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
@@ -17,6 +17,7 @@
     NSLog(@"B_viewControllerWithContentText %@",contentText);
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"contentText"] = contentText;
+    params[@"block"] = block;
     return [self performTarget:@"B" action:@"viewController" params:params shouldCacheTarget:NO];
 }
 

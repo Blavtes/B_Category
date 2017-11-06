@@ -8,10 +8,10 @@
 
 #import <CTMediator/CTMediator.h>
 #import <UIKit/UIKit.h>
-
+//typedef void (^test) (NSString *log);
 @interface CTMediator (B)
 
-- (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText;
+- (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText block:(id)block;
 
 
 @end
