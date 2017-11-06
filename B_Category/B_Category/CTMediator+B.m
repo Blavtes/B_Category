@@ -14,7 +14,7 @@
     /*
      BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
      */
-    NSLog(@"B_viewControllerWithContentText %@",contentText):
+    NSLog(@"B_viewControllerWithContentText %@",contentText);
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"contentText"] = contentText;
     return [self performTarget:@"B" action:@"viewController" params:params shouldCacheTarget:NO];
